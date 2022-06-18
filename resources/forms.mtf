@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<MektonTransformationSpec author="" name="Basic">
+ <Form Name="Fighter" cost="0.3" MV="-2" hardpoints="Torso, Pod, Head, Wings, Binders" special="Minimum MA of 4 hexes per turn">
+   <Prop name="GES"/>
+   <Prop name="Thrusters"/>
+   <Prop name="Gravitics"/>
+   <Move name="Air" MAMult="2"/>
+ </Form>
+ <Form Name="Hybrid" cost="0.35" MV="-1" hardpoints="All" special="None">
+   <Prop name="GES"/>
+   <Prop name="Thrusters"/>
+   <Prop name="Gravitics"/>
+   <Move name="Air" MAMult="1.5"/>
+ </Form>
+ <Form Name="Beast" cost="0.3" MV="-1" hardpoints="All" special="No hands or handheld weapons, +2k Melee Damage">
+   <Prop name="Legs"/>
+   <Move name="Walk" MABonus="2"/>
+ </Form>
+ <Form Name="Submarine" cost="0.25" MV="-2" hardpoints="Torso, Pod, Binders" special="No hands or handheld weapons, can function on and under water only">
+   <Prop name="GES"/>
+   <Prop name="Thrusters"/>
+   <Prop name="Hydrojets"/>
+   <Prop name="Gravitics"/>
+   <Move name="Water" MAMult="1.5"/>
+ </Form>
+</MektonTransformationSpec>
