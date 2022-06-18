@@ -1,0 +1,8 @@
+OUTSTANDING BUGS
+----------------
+
+* Not all locations update properly when a Servo name is changed.
+* It is possible to add hands to a held location, or multiple hands to an arm, and have the hands count for purposes of held items.
+* It is possible to add hands to a Weapon Mount.
+* Wheel kills and propulsion spaces don't always update properly(though they are stored, just not displayed)
+* Any table with a location delegate has a tiny memory leak when loading files. This is fixable, I just haven't done it yet.

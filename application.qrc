@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/support">
+        <file alias="forms.mtf">resources/forms.mtf</file>
+    </qresource>
+</RCC>
